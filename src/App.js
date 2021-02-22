@@ -10,7 +10,7 @@ import SignUp from './components/pages/SignUp';
 function App() {
   return (
     <>
-      <Router basename='https://kblalock314.github.io/react-template1'>
+      <Router basename='/react-template1'>
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
